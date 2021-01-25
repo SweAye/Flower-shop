@@ -1,0 +1,51 @@
+:root{
+  --mainPurple: #dda0dd;
+  --lightPurple: #ECCBEC;
+  --mainBlue: #003366;
+  --lightBlue: #336699;
+  --darkPurple: #6600CC;
+}
+body{
+
+  font-family: 'Handlee', cursive !important;
+  
+  background: var(--lightPurple)!important;
+  color: var(--mainBlue) !important;
+
+}
+
+.text-title{
+  
+  font-family: 'Lato', sans-serif! important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+
+}
+.text-blue{
+  color: var(--mainBlue);
+
+}
+.text-bright{
+  color:var(--lightBlue);
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--darkPurple);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--darkPurple) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainBlue)!important;
+  color: var(--lightPurple) !important;
+}
+
+.cart-icon{
+
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--lightPurple);
+  
+}
